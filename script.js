@@ -18,7 +18,7 @@ let checkTimerStart = false;
 //Adding event listener to start button to start the timer
 startButton.addEventListener('click' , function(){
     clearInterval(timerEvent);
-    timerEvent = setInterval(startTimer , 1);
+    timerEvent = setInterval(startTimer , 10);
 } );
 
 //Adding event listener to stop button to the timer
@@ -37,16 +37,16 @@ resetButton.addEventListener("click" , function(){
     hour.textContent = "00";
     minute.textContent = "00";
     second.textContent = "00";
-    milisecond.textContent = "000";
+    milisecond.textContent = "00";
 })
 
 //function to start timer
 function startTimer(){
     checkTimerStart = true;
         if(checkTimerStart = true){
-            msec += 5;
+            msec += 1;
     
-            if(msec == 1000){
+            if(msec == 100){
                 sec++;
                 msec =0;
             }
