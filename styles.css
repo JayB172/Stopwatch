@@ -1,0 +1,51 @@
+ /* styles for the body */
+body{
+    background-color: #2C3333;
+}
+
+/* Heading styles */
+.heading{
+    text-align: center;
+    margin-top: 100px;
+    color: #0E8388;  
+    
+}
+.heading h1{
+    font-size: 80px ;
+    font-family: 'Roboto Slab', serif;
+}
+
+/* Timer styles */
+.timer{
+    padding: 30px;
+  position: relative;
+  left: 15%;
+  right: 15%;
+  margin-top: 100px;
+  width: 70%;
+  text-align: center;
+  border: 3px solid #2E4F4F;
+}
+
+.timer span{
+    color: #CBE4DE;
+}
+.time{
+    padding: 20px;
+    font-size: 30px;
+    font-family: 'Roboto Slab', serif;
+}
+
+/* Button styles */
+.button{
+    margin: 20px 50px 20px 50px;
+    width:80px;
+    border-color: #2E4F4F ;
+    color: #0E8388;
+}
+
+.button:hover{
+    background-color: #0E8388;
+    transform: scale(1.2);
+
+}
